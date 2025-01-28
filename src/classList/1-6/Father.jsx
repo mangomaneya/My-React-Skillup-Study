@@ -1,10 +1,10 @@
 import React from "react";
 import Child from "./Child";
 
-const Father = ({ familyName, pocketMoney }) => {
+const Father = () => {
   return (
     <div>
-      <Child familyName={familyName} pocketMoney={pocketMoney} />
+      <Child />
     </div>
   );
 };

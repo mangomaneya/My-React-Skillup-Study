@@ -1,10 +1,9 @@
-import GrandFather from "./components/GrandFather";
+import React from 'react'
+
 const App = () => {
   return (
-    <div>
-      <GrandFather></GrandFather>
-    </div>
-  );
-};
+    <div>App</div>
+  )
+}
 
-export default App;
+export default App
