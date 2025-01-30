@@ -8,6 +8,8 @@ const App = () => {
 
     ref.current="바꾼 값";
     console.log('current', ref)
+
+    
   return (
     <div>
         <h1>useRef</h1>
